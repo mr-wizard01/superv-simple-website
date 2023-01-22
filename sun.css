@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1200px;
+  background: linear-gradient(to bottom right, blue, lightblue, orange);
+}
+
+.container {
+  position: relative;
+  height: calc(100vh - 70px);
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  background: url(Hydrangeas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container .header {
+  color: crimson;
+  padding: 27px;
+  border: 1px solid gray;
+  box-shadow: 4px 5px 24px greenyellow;
+  font-weight: bold;
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+.container .para1 {
+  border: 1px solid gray;
+  font-size: 19px;
+  word-spacing: 7px;
+  text-transform: capitalize;
+  text-shadow: 3px 3px 23px blue;
+  padding: 20px;
+  box-shadow: 3px 5px 30px orange;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 60vh;
+  line-height: 39px;
+  padding-top: 60px;
+  color: gray;
+}
+
+.container .para1:hover {
+  color: whitesmoke;
+  font-size: 23px;
+}
+
+.container .photo {
+  background-color: antiquewhite;
+  height: 300px;
+  width: 200px;
+  position: absolute;
+  right: 14px;
+  top: 40px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding: 20px;
+  color: orange;
+  background: transparent;
+  box-shadow: 5px 5px 30px green;
+}
+
+.photo:hover {
+  border: none;
+}
+
+.photo h3 {
+  font-weight: 800;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: 3px 4px 28px orange;
+  padding-bottom: 25px;
+}
+
+.photo p {
+  color: black;
+  background-color: whitesmoke;
+  padding: 19px;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: bold;
+  word-spacing: 10px;
+  line-height: 19px;
+  border: 1px solid gainsboro;
+}
+
+.photo img {
+  border-radius: 100%;
+  height: 85px;
+  width: 85px;
+  border: 1px solid blue;
+  padding: 3.5px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.container .big {
+  position: absolute;
+  height: 300px;
+  width: 129px;
+  top: 50%;
+  transform: translateY(50%);
+  background: transparent;
+  box-shadow: 4PX 4PX 30PX greenyellow;
+}
+
+.big h3 {
+  font-size: 23px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  color: whitesmoke;
+  padding-top: 12px;
+  letter-spacing: 3px;
+  text-align: center;
+}/*# sourceMappingURL=sun.css.map */
